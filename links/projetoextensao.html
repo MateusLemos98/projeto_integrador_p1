@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/template.css" />
+
+    <script src="https://kit.fontawesome.com/3442beb7e1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector("header nav .mobile-menu").addEventListener("click", function () {
+                if (document.querySelector("header nav ul").style.display == 'flex') {
+                    document.querySelector("header nav ul").style.display  = 'none';
+                } else {
+                    document.querySelector("header nav ul").style.display  = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>Projeto de Extensão - UNIESP</title>
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/images/logo-iesp.jpg" /></a>
+            </div>
+            <nav>
+                <div class="mobile-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul>
+
+                    <li>
+                        <div class="dropdown">
+                            <a href="../index.html">Página Inicial </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            Cursos <i class="fas fa-angle-down fa-xs"></i>
+                            <div class="dropdown-content">
+                                <a href="spi.html">Sistemas para Internet</a>
+                                <a href="sdi.html">Sistemas de Informação</a>
+                                <a href="gdti.html">Gestão de TI</a>
+                                <a href="adds.html">Analise e Desenvolvimento de Sistema</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            Parcerias <i class="fas fa-angle-down fa-xs"></i>
+                            <div class="dropdown-content">
+                                <a target="_blank" href="https://a3data.com.br/">A3Data</a>
+                                <a target="_blank" href="https://compass.uol/en/about-us/">Compass.Uol</a>
+                                <a target="_blank" href="https://dock.tech/sobre/">Dock</a>
+                                <a target="_blank" href="https://www.indracompany.com/es/indra">Indra</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            Conteúdos <i class="fas fa-angle-down fa-xs"></i>
+                            <div class="dropdown-content">
+                                <a href="https://www.iesp.edu.br/institucional/a-faculdade">Centro Universitário</a>
+                                <a href="coordenacao.html">Coordenação de TI</a>
+                                <a href="projetoextensao.html">Projetos de Extensão</a>
+                                <a href="sobre-nos.html">Sobre-nós</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="signin"><a target="_blank" href="inscricao.html">Inscreva-se</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>Fábrica de Software</h1>
+                    <h2>
+                        Um espaço dentro da faculdade que simula um ambiente real de uma empresa, dando oportunidade aos alunos de todos os períodos ter uma aproximação com processos e metodologias de Desenvolvimento de Software.
+                        <br><br>
+                        É importante dizer que cada fábrica tem seu próprio processo de trabalho. Porém, na grande maioria, o principal objetivo é a rápida velocidade no desenvolvimento da aplicação web, mobile ou desktop. Trabalhar com padrões muito bem estabelecidos e com cronogramas fechados é muitas vezes o que permite a agilidade na entrega.
+                        <br><br>
+                        É preciso ter em mente que parte do processo, ou até partes dos softwares, será feito com base em moldes pré-existentes. As necessidades de cada cliente e de cada projeto são adequadas utilizando esses moldes como base. Com isso, o nível de personalização e customização tende a ser limitado, e o cronograma fechado muitas vezes não permite a flexibilidade que o mercado exige atualmente. Em compensação, possuem preços bastante competitivos devido a este modelo de reutilização e padronização de componentes. 
+                        <br><br>
+                        Sua demanda em uma escala variável, quando desenvolvida em uma fábrica de software, terá que se adequar a solução criada e cabe a você entender se sua necessidade permite esta flexibilidade, ou se você não pode abrir mão de um processo que se adeque 100% ao seu negócio.
+                    </h2>
+                </div>
+                    <div class="images-projetos1">
+                        <img height="290px" src="../assets/images/fabricadesoftware.png" />
+                    </div>
+            </div>
+        </section>
+
+        <section id="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>PID ( Programa de Inclusão Digital )</h1>
+                    <h2>
+                        Os alunos participam como instrutores desse projeto, que tem com o objetivo oferecer cursos básicos de informática para adolescentes de comunidades carentes e profissionais em busca de inclusão digital.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id risus accumsan velit vehicula consectetur id sed ligula. Nullam id nisl nunc. Proin auctor bibendum porta. Donec consectetur est ut massa pellentesque, id tincidunt ligula ultricies. Maecenas cursus arcu diam, id suscipit nisi vestibulum non. Aliquam quis mauris laoreet, consectetur nunc vel, ultrices dui. Ut et enim sit amet leo ultrices eleifend.
+                        <br><br>
+                        Morbi non vestibulum quam, a posuere nisi. Etiam et nisl vel est fermentum ultrices. Vestibulum a commodo lacus. Donec faucibus sem lacus, sed finibus tortor iaculis quis. Vestibulum a placerat mauris. Sed semper erat augue, non pretium erat congue et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec turpis nunc, interdum in dictum ac, malesuada in diam. Sed laoreet ligula felis, eu varius leo sodales eu. Cras euismod nibh ac dolor congue, vel mollis ante viverra. Aenean vitae tempor nibh. Donec sed finibus augue.
+                    </h2>
+                </div>
+                <div class="images-projetos2">
+                    <img height="290px" src="../assets/images/pid2.jpg" />
+                </div>
+            </div>
+        </section>
+
+        <section id="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>AIDA ( Inteligência Artificial e Análise de Dados )</h1>
+                    <h2>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id mauris risus. Nunc ullamcorper ante vitae sem luctus venenatis vel eu nisi. Nullam congue purus ante, sed vulputate enim faucibus at. Vestibulum eget justo nec arcu molestie cursus et eget felis. Nulla faucibus ex sed rhoncus consectetur. Morbi ante arcu, semper ac leo a, accumsan vestibulum purus. Morbi mollis risus sapien, sit amet semper dui porta et. Suspendisse tristique, ex id iaculis rutrum, ex tellus facilisis urna, ornare ultricies leo ex ut libero. Curabitur vulputate, nisi non congue dictum, sem erat viverra nisl, eu interdum risus ligula et elit. Etiam scelerisque tincidunt urna, sed rutrum purus ultricies vitae. Fusce maximus suscipit imperdiet. Pellentesque vestibulum, ex eu pellentesque pharetra, lorem magna convallis purus, in iaculis diam dui id enim. Sed nec ultrices massa, quis consectetur felis. Nullam sit amet elementum felis, a luctus orci. Vestibulum auctor mauris vitae est cursus venenatis. Donec leo risus, venenatis vitae justo varius, dictum mollis turpis.
+                        <br><br>
+                        Nunc sit amet quam sodales, mattis ex a, venenatis nibh. Proin non iaculis ligula. Praesent iaculis ante vitae sapien consequat vestibulum. Nullam condimentum consectetur nibh, ullamcorper rutrum eros mollis at. Pellentesque condimentum, mauris et auctor facilisis, urna sapien porttitor turpis, vel ultricies massa erat vel dolor. Duis congue odio quis metus pharetra sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi molestie eu lorem id fringilla. Nulla quis ipsum tempus, iaculis risus nec, vehicula risus. Aliquam finibus turpis at ante porttitor mattis. Curabitur a dui sed urna congue bibendum quis scelerisque risus.    
+                    </h2>
+                </div>
+                <div class="images-projetos3">
+                    <img height="290px" src="../assets/images/aida2.jpg" />
+                </div>
+            </div>
+        </section>
+       
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-area">
+                <img src="../assets/images/logo-uniesp.jpg" alt="">
+            </div>
+            <div class="footer-area">
+                <h3>Cursos</h3>
+                <ul>
+                    <li><a href="spi.html">Sistemas Para Internet</a></li>
+                    <li><a href="sdi.html">Sistemas de Informação</a></li>
+                    <li><a href="gdti.html">Gestão de TI</a></li>
+                    <li><a href="adds.html">Analise e Desenv. de Sistema</a></li>
+                </ul>
+            </div>
+            <div class="footer-area">
+                <h3>Parceiras</h3>
+                <ul>
+                    <li><a target="_blank" href="https://dock.tech/sobre/">Dock</a></li>
+                    <li><a target="_blank" href="https://www.indracompany.com/es/indra">Indra</a></li>
+                    <li><a target="_blank" href="https://compass.uol/en/about-us/">Compass.Uol</a></li>
+                    <li><a target="_blank" href="https://a3data.com.br/">A3Data</a></li>
+                </ul>
+            </div>
+            <div class="footer-area">
+                <h3>Conteúdos</h3>
+                <ul>
+                    <li><a target="_blank" href="https://www.iesp.edu.br/institucional/a-faculdade">Centro Universitário</a></li>
+                    <li><a href="coordenacao.html">Coordenação de TI</a></li>
+                    <li><a href="projetoextensao.html">Projetos de Extensão</a></li>
+                    <li><a href="sobre-nos.html">Sobre-nós</a></li>
+            </div>
+            <div class="footer-area">
+                <ul class="social-icons">
+                    <li><a target="_blank" href="https://www.linkedin.com/school/uniespcentrouniversitario/"><i class="fab fa-linkedin fa-fw"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/soumaisuniesp/"><i class="fab fa-instagram-square fa-fw"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/soumaisuniesp"><i class="fab fa-twitter-square fa-fw"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/soumaisuniesp/"><i class="fab fa-facebook-square fa-fw"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>    
+</html>
